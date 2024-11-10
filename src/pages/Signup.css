@@ -1,0 +1,44 @@
+.signup-content {
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.signup-content h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: var(--dark-purple);
+}
+
+.signup-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-content form label {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: var(--dark-purple);
+}
+
+.signup-content form input {
+  margin-top: 0.5rem;
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid var(--medium-pink);
+}
+
+.signup-content button {
+  margin-top: 1rem;
+  padding: 0.8rem;
+  border-radius: 8px;
+  background-color: var(--medium-pink);
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signup-content button:hover {
+  background-color: var(--soft-pink);
+}

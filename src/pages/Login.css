@@ -1,0 +1,49 @@
+.login-content {
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.login-content h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: var(--dark-purple);
+}
+
+.login-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-content form label {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: var(--dark-purple);
+}
+
+.login-content form input {
+  margin-top: 0.5rem;
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid var(--medium-pink);
+}
+
+.login-content button {
+  margin-top: 1rem;
+  padding: 0.8rem;
+  border-radius: 8px;
+  background-color: var(--medium-pink);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.login-content p {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.login-content a {
+  color: var(--medium-pink);
+  text-decoration: none;
+}

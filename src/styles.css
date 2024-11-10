@@ -1,0 +1,103 @@
+/* Root colors */
+:root {
+  --light-pink: #f5e3e0;
+  --soft-pink: #e8b4bc;
+  --medium-pink: #d282a6;
+  --dark-pink: #6e4555;
+  --dark-purple: #3a3238;
+}
+
+/* Global styles */
+body {
+  background-color: var(--light-pink);
+  font-family: 'Roboto Mono', monospace;
+  margin: 0;
+}
+
+.app-container {
+  text-align: center;
+  color: var(--dark-purple);
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--dark-purple);
+}
+
+.header .logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header nav a {
+  margin-left: 1.5rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.header nav a:hover {
+  color: var(--soft-pink);
+}
+
+/* Page content styling */
+.about-content, .contact-content, .login-content, .home-content {
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: var(--dark-purple);
+}
+
+form input, form textarea {
+  margin-top: 0.5rem;
+  padding: 0.8rem;
+  border: 1px solid var(--medium-pink);
+  border-radius: 8px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+form button {
+  margin-top: 1rem;
+  padding: 0.8rem;
+  border: none;
+  background-color: var(--medium-pink);
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: var(--soft-pink);
+}
+
+/* Social media links */
+.social-media a {
+  display: inline-block;
+  margin: 0.5rem;
+  color: var(--medium-pink);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-media a:hover {
+  color: var(--dark-purple);
+}
